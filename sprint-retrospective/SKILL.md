@@ -1,7 +1,7 @@
 ---
 name: sprint-retrospective
 description: >
-  Runs a short sprint retrospective: asks what went well, what did not go well and what to change, and turns the answers into one concrete action for the next sprint. Use when a sprint or work session has ended, when the user says "let's do a retro" or "retrospective", or asks what to improve after a sprint. Also called by the skill sprint-planning.
+  Runs a short sprint retrospective: asks what went well, what did not go well and what to change, and turns the answers into three concrete things for the next sprint. Use when a sprint or work session has ended, when the user says "let's do a retro" or "retrospective", or asks what to improve after a sprint. Also called by the skill sprint-planning.
 ---
 
 # Sprint Retrospective
@@ -26,11 +26,11 @@ Ask them one at a time and write down every answer:
 
 Ask for specifics. "Communication was bad" is too vague, "we did not agree who builds the login" is useful.
 
-### Step 3: Pick one action
+### Step 3: Pick three things for the next sprint
 
-From the answers to question 3, let the team choose one concrete action for the next sprint. An action has an owner and a moment: "Sam writes the acceptance criteria before building starts."
+From the answers to question 3, let the team choose three things to take into the next sprint. Each one is concrete and has an owner and a moment: "Sam writes the acceptance criteria before building starts."
 
-Do not take more than one or two actions. A list of ten actions means nothing happens. Put the action on the sprint backlog of the next sprint, so it is part of the work.
+Do not take more than three. A list of ten means nothing happens. Put the three things on the sprint backlog of the next sprint, so they are part of the work.
 
 ### Step 4: Close
 
@@ -38,13 +38,13 @@ Present a short summary:
 
 - What went well, in a few bullets.
 - What did not go well, in a few bullets.
-- The action for the next sprint, with owner.
+- The three things for the next sprint, with owners.
 
 Ask whether the team wants to plan the next sprint now. If yes, load the skill `sprint-planning`.
 
 ## Working alone
 
-Do the retrospective with a sprint buddy, not only with yourself. Each of you answers the three questions about your own sprint, and the other asks one follow-up question. You choose your own action. Write it down where you will see it at the start of the next sprint.
+Do the retrospective with a sprint buddy, not only with yourself. Each of you answers the three questions about your own sprint, and the other asks one follow-up question. You choose your own three things. Write them down where you will see them at the start of the next sprint.
 
 ## Make it your own
 

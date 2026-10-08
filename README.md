@@ -2,8 +2,8 @@
 
 *Claude skills to go from idea to backlog and message, by [Tim van den Bosch](https://www.linkedin.com/in/timvdbosch) (Sitelane).*
 
-Five small skills to prepare and run a sprint: from product idea to backlog, message and retrospective. Three do one job each,
-two orchestrators run them in order. They come from a course on prototyping with AI at Unknown University.
+Six small skills to prepare and run a sprint: from product idea to backlog, message and retrospective. Three do one job each,
+two orchestrators run them in order and one skill runs the retro. They come from a course on prototyping with AI at Unknown University.
 
 ## The skills
 
@@ -13,14 +13,15 @@ two orchestrators run them in order. They come from a course on prototyping with
 | **sprint-user-stories** | Writes stories ("As a ... I want ... so that ...") with Given-When-Then acceptance criteria. |
 | **sprint-messaging-canvas** | Six steps to a message that fits your audience: struggle, solution, hesitations, awareness, differentiators, success. |
 | **sprint-session** | Orchestrator: runs the three skills above in order and passes the output of each step to the next. |
-| **sprint-planning** | Orchestrator: checks the backlog, picks the stories, sets a sprint goal and a timebox, defines done and ends with a retrospective. Calls sprint-session when there is no backlog yet. |
+| **sprint-retrospective** | Runs a five-minute retro: what went well, what did not, what we change. Ends with one concrete action. |
+| **sprint-planning** | Orchestrator: checks the backlog, picks the stories, sets a sprint goal and a timebox, defines done and ends with a retrospective. Calls sprint-session when there is no backlog yet and sprint-retrospective at the end. |
 
 ## Install
 
 ```bash
 git clone https://github.com/mondayrunner/sprint-skills.git
 cd sprint-skills
-for d in sprint-product-vision-canvas sprint-user-stories sprint-messaging-canvas sprint-session sprint-planning; do
+for d in sprint-product-vision-canvas sprint-user-stories sprint-messaging-canvas sprint-session sprint-retrospective sprint-planning; do
   ln -s "$(pwd)/$d" ~/.claude/skills/$d
 done
 ```

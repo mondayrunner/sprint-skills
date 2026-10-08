@@ -1,7 +1,7 @@
 ---
 name: sprint-planning
 description: >
-  Plans and runs a short sprint: checks that there is a product vision and a backlog of user stories, picks the stories for the sprint, sets a sprint goal and a timebox, defines what done means, and ends with a retrospective. Use when the user wants to plan a sprint, start a sprint, run a mini-sprint in a workshop or class, or asks "what should we build in this sprint". This skill orchestrates sprint-session, sprint-user-stories and the retrospective step.
+  Plans and runs a short sprint: checks that there is a product vision and a backlog of user stories, picks the stories for the sprint, sets a sprint goal and a timebox, defines what done means, and ends with a retrospective. Use when the user wants to plan a sprint, start a sprint, run a mini-sprint in a workshop or class, or asks "what should we build in this sprint". This skill orchestrates sprint-session, sprint-user-stories and sprint-retrospective.
 ---
 
 # Sprint Planning
@@ -41,13 +41,7 @@ Start the timebox and say how long it is. During the sprint:
 
 ## Step 6: Retrospective
 
-In the last minutes, ask three questions and write down the answers:
-
-1. What went well?
-2. What did not go well?
-3. What do we change in the next sprint?
-
-Turn the answer to the third question into one concrete action for the next sprint.
+In the last minutes, load the skill `sprint-retrospective`. It asks what went well, what did not go well and what to change, and turns the answers into one concrete action for the next sprint.
 
 ## Closing
 
@@ -55,4 +49,4 @@ Present a short summary: the sprint goal, the stories that are done, the stories
 
 ## Make it your own
 
-The questions in the retrospective and the length of each step are a starting point. Change them to fit your team, for example with Start, Stop, Continue instead of the three questions above.
+The length of each step is a starting point. Change it to fit your team. To change the retrospective questions, edit the skill `sprint-retrospective`.

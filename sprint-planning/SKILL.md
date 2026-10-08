@@ -66,6 +66,17 @@ Scrum also works for one person. You are the product owner, the builder and the 
 - **Estimates:** points are relative to your own speed. After the first sprint, the points you finished are your speed. Plan the next sprint with that number.
 - **The AI is the facilitator, not the buddy:** it keeps the steps and the time, a person gives the feedback.
 
+## Working with AI agents
+
+When an AI agent builds, the sprint keeps its shape but the weight moves from building to deciding and learning:
+
+- **Review sets the scope:** take only as many stories as you or a real person can review in the sprint, not as many as the agent can build.
+- **The story is the prompt:** give the agent the story and its acceptance criteria. Use the criteria to check its work.
+- **Keep the backlog where the agent reads it:** `BACKLOG.md` in the project folder is context for every session.
+- **The sprint goal keeps the agent in bounds:** new ideas go on the backlog, not into the sprint.
+- **Review with a real person every sprint:** building fast without feedback only gets you the wrong thing sooner.
+- **The retrospective improves the agent too:** when the agent got something wrong, change `AGENTS.md` or the skill, and make that the action for the next sprint.
+
 ## Closing
 
 Present a short summary: the sprint goal, the points planned and the points done, the stories that are done, the stories that are not, the feedback from the review, and the action for the next sprint. Compare the points over several sprints. That is how the team learns how much it can build. Ask whether the team wants to plan the next sprint now.

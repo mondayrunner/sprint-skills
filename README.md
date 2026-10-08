@@ -13,7 +13,7 @@ two orchestrators run them in order and one skill runs the retro. They come from
 | **sprint-user-stories** | Writes stories ("As a ... I want ... so that ...") with Given-When-Then acceptance criteria, checks their quality, and puts the backlog on a board (`BACKLOG.md` by default). |
 | **sprint-messaging-canvas** | Six steps to a message that fits your audience: struggle, solution, hesitations, awareness, differentiators, success. |
 | **sprint-session** | Orchestrator: runs the three skills above in order and passes the output of each step to the next. |
-| **sprint-retrospective** | Runs a five-minute retro: what went well, what did not, what we change. Ends with one concrete action. |
+| **sprint-retrospective** | Runs a five-minute retro: what went well, what did not, what we change. Ends with three concrete improvements. |
 | **sprint-planning** | Orchestrator: checks the backlog, orders and picks the stories, sets a sprint goal and a timebox, defines done, runs a mid-sprint check and a sprint review with a real person, and ends with a retrospective. Calls sprint-session when there is no backlog yet and sprint-retrospective at the end. |
 
 ## Install with your agent (copy and paste)

@@ -29,7 +29,7 @@ If a story is too big for the timebox, load the skill `sprint-user-stories` and 
 
 ## Step 3: Set the sprint goal and add the improvement
 
-Add the three things from the last retrospective to the sprint as tasks, so they are done and not only discussed.
+Add the three improvements from the last retrospective to the sprint as tasks, so they are done and not only discussed.
 
 Then ask for one sentence: "At the end of this sprint, a user can ...". Check that every chosen story supports that goal. Remove the stories that do not.
 
@@ -52,7 +52,7 @@ Before the retrospective, show the working result to one person outside the team
 
 ## Step 7: Retrospective
 
-In the last minutes, load the skill `sprint-retrospective`. It asks what went well, what did not go well and what to change, and turns the answers into three concrete things for the next sprint.
+In the last minutes, load the skill `sprint-retrospective`. It asks what went well, what did not go well and what to change, and turns the answers into three concrete improvements for the next sprint.
 
 ## Working alone
 
@@ -79,7 +79,7 @@ When an AI agent builds, the sprint keeps its shape but the weight moves from bu
 
 ## Closing
 
-Present a short summary: the sprint goal, the points planned and the points done, the stories that are done, the stories that are not, the feedback from the review, and the three things for the next sprint. Compare the points over several sprints. That is how the team learns how much it can build. Ask whether the team wants to plan the next sprint now.
+Present a short summary: the sprint goal, the points planned and the points done, the stories that are done, the stories that are not, the feedback from the review, and the three improvements for the next sprint. Compare the points over several sprints. That is how the team learns how much it can build. Ask whether the team wants to plan the next sprint now.
 
 ## Make it your own
 

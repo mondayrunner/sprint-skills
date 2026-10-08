@@ -63,7 +63,7 @@ Order the stories by value for the user. Work the top three to five out in full,
 
 ### Step 6: Put the stories on a board
 
-Ask where the team wants the backlog. Default is a markdown file `BACKLOG.md` in the project folder with four columns: To do, In this sprint, Doing, Done. Every story is one card: a short title, the story sentence and its acceptance criteria as a checklist. If your agent has access to a board tool such as Trello or GitHub Projects, and the user asks for it, create the cards there instead. Keep the file in the project folder, so the plan is saved and the agent can read it in the next session.
+Ask where the team wants the backlog. Default is a markdown file `BACKLOG.md` in the project folder with four columns: Backlog, In this sprint, Doing, Done. Every story is one card: a short title, the story sentence and its acceptance criteria as a checklist. If your agent has access to a board tool such as Trello or GitHub Projects, and the user asks for it, create the cards there instead. Keep the file in the project folder, so the plan is saved and the agent can read it in the next session.
 
 ## Backlog rules
 

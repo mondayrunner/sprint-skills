@@ -30,7 +30,7 @@ Ask for specifics. "Communication was bad" is too vague, "we did not agree who b
 
 From the answers to question 3, let the team choose one concrete action for the next sprint. An action has an owner and a moment: "Sam writes the acceptance criteria before building starts."
 
-Do not take more than one or two actions. A list of ten actions means nothing happens.
+Do not take more than one or two actions. A list of ten actions means nothing happens. Put the action on the sprint backlog of the next sprint, so it is part of the work.
 
 ### Step 4: Close
 

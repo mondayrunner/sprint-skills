@@ -19,13 +19,15 @@ Ask: is there a product vision and a backlog of user stories?
 
 ## Step 2: Order and pick the stories for this sprint
 
-Show the numbered user stories. Ask the team to order them by value for the user, most valuable first. Then ask which stories to take into this sprint, from the top. In a short sprint, three to five stories are plenty, one is fine.
+Ask who is the product owner (orders the backlog) and who keeps the time. Show the numbered user stories. Ask the product owner to order them by value for the user, most valuable first. Ask the team to give every story an effort estimate (1, 2, 3, 5, 8, 13, 20). Then ask which stories to take into this sprint, from the top, and add up the points. Take only as many points as the team can build. In a short sprint, three to five stories are plenty, one is fine.
 
 If a story is too big for the timebox, load the skill `sprint-user-stories` and split it into smaller stories. If the stories live on a board, move the chosen ones to "In this sprint".
 
-## Step 3: Set the sprint goal
+## Step 3: Set the sprint goal and add the improvement
 
-Ask for one sentence: "At the end of this sprint, a user can ...". Check that every chosen story supports that goal. Remove the stories that do not.
+Add the improvement action from the last retrospective to the sprint as a task, so it is done and not only discussed.
+
+Then ask for one sentence: "At the end of this sprint, a user can ...". Check that every chosen story supports that goal. Remove the stories that do not.
 
 ## Step 4: Define done
 
@@ -50,7 +52,7 @@ In the last minutes, load the skill `sprint-retrospective`. It asks what went we
 
 ## Closing
 
-Present a short summary: the sprint goal, the stories that are done, the stories that are not, the feedback from the review, and the action for the next sprint. Ask whether the team wants to plan the next sprint now.
+Present a short summary: the sprint goal, the points planned and the points done, the stories that are done, the stories that are not, the feedback from the review, and the action for the next sprint. Compare the points over several sprints. That is how the team learns how much it can build. Ask whether the team wants to plan the next sprint now.
 
 ## Make it your own
 

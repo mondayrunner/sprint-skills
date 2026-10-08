@@ -54,3 +54,7 @@ other skills. Everything in this repo is in English, and the skills answer in En
 ## License
 
 MIT.
+
+## Credits
+
+The backlog rules, the sprint review and the retrospective follow the ideas of [The Scrum Guide](https://scrumguides.org/) by Ken Schwaber and Jeff Sutherland (CC BY-SA 4.0), rewritten for short sprints in a class.

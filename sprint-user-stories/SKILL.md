@@ -28,7 +28,7 @@ Define who the users are, including their needs and pains. Use empathy to unders
 
 ### Step 3: Write the user stories
 
-Write at least 10 user stories that together cover the core functionality of the product. Write them as short headlines first. Every story follows this structure:
+Write 10 to about 20 user stories that together cover the core functionality of the product. A backlog with more than 20 stories is a wish list. Write them as short headlines first. Every story follows this structure:
 
 - **As a** [type of user]
 - **I want** [action or need]
@@ -65,6 +65,20 @@ Order the stories by value for the user. Work the top three to five out in full,
 
 Ask where the team wants the backlog. Default is a markdown file `BACKLOG.md` in the project folder with four columns: To do, In this sprint, Doing, Done. Every story is one card: a short title, the story sentence and its acceptance criteria as a checklist. If your agent has access to a board tool such as Trello or GitHub Projects, and the user asks for it, create the cards there instead. Keep the file in the project folder, so the plan is saved and the agent can read it in the next session.
 
+## Backlog rules
+
+A backlog is a list with rules. Apply them when you put the stories on the board:
+
+- **Ordered:** the most valuable story is on top. Number the stories, 1 is the highest priority.
+- **One owner:** one person, the product owner, orders the backlog. In a class, each team picks one.
+- **Four attributes:** every item has a description, an order, an estimate and a value for the user.
+- **Never finished:** the backlog changes with what you learn from users. Review it after every sprint.
+- **Not a feature list:** hold the features and think one level higher. Imagine a day in the life of the user and ask what they need.
+- **Sharp at the top, rough at the bottom:** the stories you build soon are clear and detailed, the rest stays short.
+- **Ready means it fits in one sprint:** a story is ready to be picked when the team can finish it within the sprint.
+- **The builders estimate:** the people who do the work give the estimate, the product owner helps with trade-offs. Use effort points: 1, 2, 3, 5, 8, 13, 20 (1 is easy, 20 is very hard). Split every story of 13 or more.
+- **Acceptance criteria answer "how do we demo this?":** say what the result looks like in the demo.
+
 ## What makes a good story
 
 Check every story before you hand it over:
@@ -99,4 +113,5 @@ Not everything is a user story. Know the difference:
 - Add acceptance criteria with scenarios in Gherkin format (Given-When-Then) to every story.
 - Number the stories so they are easy to refer to.
 - Deliver at least 10 stories as headlines for the backlog unless asked otherwise. Give full acceptance criteria for the top three to five.
+- Order the backlog by value and give every story an effort estimate once the team has estimated it.
 - Offer to put the stories on a board (`BACKLOG.md` by default).

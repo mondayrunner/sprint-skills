@@ -42,6 +42,10 @@ Present a short summary:
 
 Ask whether the team wants to plan the next sprint now. If yes, load the skill `sprint-planning`.
 
+## Working alone
+
+Do the retrospective with a sprint buddy, not only with yourself. Each of you answers the three questions about your own sprint, and the other asks one follow-up question. You choose your own action. Write it down where you will see it at the start of the next sprint.
+
 ## Make it your own
 
 Change the questions to fit your team. Two common alternatives:

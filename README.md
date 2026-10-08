@@ -46,6 +46,10 @@ No git? Download the [zip](https://github.com/mondayrunner/sprint-skills/archive
 
 To update later: `git -C ~/skills/sprint-skills pull`.
 
+## Alone or in a team
+
+The skills work for a team and for a one-person team. When you work alone, `sprint-planning` explains how to wear the hats one at a time and how to use a sprint buddy for the review and the retrospective.
+
 ## Make it your own
 
 Skills are plain markdown. Change the questions, add a step, or write your own orchestrator that calls

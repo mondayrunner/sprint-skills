@@ -10,6 +10,10 @@ This skill is an orchestrator. It plans a sprint, keeps it small, and closes it 
 
 The default sprint is 20 minutes: 5 minutes to plan, 10 minutes to build and review, 5 minutes for the retrospective. In a mini-sprint the review can be one minute with one person. The user can change the timebox. A real sprint is longer, the steps stay the same.
 
+## Team or alone?
+
+Ask first: "Are you working in a team or alone?" If the user is alone, follow the notes under "Working alone" at each step.
+
 ## Step 1: Check the starting point
 
 Ask: is there a product vision and a backlog of user stories?
@@ -49,6 +53,18 @@ Before the retrospective, show the working result to one person outside the team
 ## Step 7: Retrospective
 
 In the last minutes, load the skill `sprint-retrospective`. It asks what went well, what did not go well and what to change, and turns the answers into one concrete action for the next sprint.
+
+## Working alone
+
+Scrum also works for one person. You are the product owner, the builder and the user, so you wear one hat at a time and say out loud which one:
+
+- **Product owner hat, in planning:** order the stories by value for the user, not by what you like building. Take one to three stories.
+- **Builder hat, during the sprint:** have only one story in Doing at a time. Use a visible timer. It is your Scrum Master.
+- **User hat, in the review:** look at the result as someone who sees it for the first time.
+- **Sprint buddy:** pick a classmate or someone from your standup group. Tell them your sprint goal at the start, and show them the result at the end. A sprint review needs someone outside the team.
+- **Retrospective:** do it with your buddy. Each of you says one thing that went well and one thing to change.
+- **Estimates:** points are relative to your own speed. After the first sprint, the points you finished are your speed. Plan the next sprint with that number.
+- **The AI is the facilitator, not the buddy:** it keeps the steps and the time, a person gives the feedback.
 
 ## Closing
 

@@ -16,17 +16,35 @@ two orchestrators run them in order and one skill runs the retro. They come from
 | **sprint-retrospective** | Runs a five-minute retro: what went well, what did not, what we change. Ends with one concrete action. |
 | **sprint-planning** | Orchestrator: checks the backlog, picks the stories, sets a sprint goal and a timebox, defines done and ends with a retrospective. Calls sprint-session when there is no backlog yet and sprint-retrospective at the end. |
 
-## Install
+## Install with your agent (copy and paste)
+
+Paste this into Claude Code, or into any coding agent that can run commands:
+
+```text
+Install the skills from https://github.com/mondayrunner/sprint-skills for me.
+1. Clone the repo to ~/skills/sprint-skills (or git pull if it is already there).
+2. Symlink these folders into ~/.claude/skills: sprint-product-vision-canvas,
+   sprint-user-stories, sprint-messaging-canvas, sprint-session,
+   sprint-retrospective and sprint-planning.
+3. If I use another agent than Claude Code, put them in that agent's skills folder instead.
+4. Tell me which skills are installed, then wait.
+```
+
+When it is done, start a new session and say: "Run a sprint session for my idea." When you have a backlog: "Plan a 20-minute sprint."
+
+## Install yourself
 
 ```bash
-git clone https://github.com/mondayrunner/sprint-skills.git
-cd sprint-skills
+mkdir -p ~/skills ~/.claude/skills
+git clone https://github.com/mondayrunner/sprint-skills.git ~/skills/sprint-skills
 for d in sprint-product-vision-canvas sprint-user-stories sprint-messaging-canvas sprint-session sprint-retrospective sprint-planning; do
-  ln -s "$(pwd)/$d" ~/.claude/skills/$d
+  ln -sfn ~/skills/sprint-skills/$d ~/.claude/skills/$d
 done
 ```
 
-Then ask Claude: "Run a sprint session for my idea", and when you have a backlog: "Plan a 20-minute sprint."
+No git? Download the [zip](https://github.com/mondayrunner/sprint-skills/archive/refs/heads/main.zip), unzip it, and copy the six `sprint-` folders into `~/.claude/skills`.
+
+To update later: `git -C ~/skills/sprint-skills pull`.
 
 ## Make it your own
 

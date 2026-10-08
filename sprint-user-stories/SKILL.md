@@ -28,7 +28,7 @@ Define who the users are, including their needs and pains. Use empathy to unders
 
 ### Step 3: Write the user stories
 
-Write at least 10 user stories that together cover the core functionality of the product. Every story follows this structure:
+Write at least 10 user stories that together cover the core functionality of the product. Write them as short headlines first. Every story follows this structure:
 
 - **As a** [type of user]
 - **I want** [action or need]
@@ -57,6 +57,25 @@ Add at least one scenario in Gherkin style to every user story:
 - When: They click a suggestion.
 - Then: The address fields are filled in automatically.
 
+### Step 5: Refine the top of the backlog
+
+Order the stories by value for the user. Work the top three to five out in full, with acceptance criteria, because they go into the next sprint. Refine the other stories when they come up. This is called backlog refinement: the stories you build soon are sharp, and you do not write everything out in advance.
+
+### Step 6: Put the stories on a board
+
+Ask where the team wants the backlog. Default is a markdown file `BACKLOG.md` in the project folder with four columns: To do, In this sprint, Doing, Done. Every story is one card: a short title, the story sentence and its acceptance criteria as a checklist. If your agent has access to a board tool such as Trello or GitHub Projects, and the user asks for it, create the cards there instead. Keep the file in the project folder, so the plan is saved and the agent can read it in the next session.
+
+## What makes a good story
+
+Check every story before you hand it over:
+
+- **Independent:** it can be built without waiting for another story.
+- **Valuable:** a real user gets something from it.
+- **Small:** it fits in one sprint.
+- **Testable:** the acceptance criteria say when it is done.
+- **For one user:** one type of user, one goal.
+- **Negotiable:** it says what the user needs, and leaves the how to the team.
+
 ## Best practices
 
 - **User-centered:** Write in plain, non-technical language. Focus on what the user needs, not on how it is built.
@@ -79,4 +98,5 @@ Not everything is a user story. Know the difference:
 - Deliver every story in the standard format: "As a [type of user], I want [action or need], so that [value or goal]."
 - Add acceptance criteria with scenarios in Gherkin format (Given-When-Then) to every story.
 - Number the stories so they are easy to refer to.
-- Deliver at least 10 stories unless asked otherwise. In a short sprint, ask for three to five.
+- Deliver at least 10 stories as headlines for the backlog unless asked otherwise. Give full acceptance criteria for the top three to five.
+- Offer to put the stories on a board (`BACKLOG.md` by default).

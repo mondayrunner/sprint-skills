@@ -1,14 +1,14 @@
 ---
 name: sprint-planning
 description: >
-  Plans and runs a short sprint: checks that there is a product vision and a backlog of user stories, picks the stories for the sprint, sets a sprint goal and a timebox, defines what done means, and ends with a retrospective. Use when the user wants to plan a sprint, start a sprint, run a mini-sprint in a workshop or class, or asks "what should we build in this sprint". This skill orchestrates sprint-session, sprint-user-stories and sprint-retrospective.
+  Plans and runs a short sprint: checks that there is a product vision and a backlog of user stories, orders and picks the stories for the sprint, sets a sprint goal and a timebox, defines what done means, shows the result to a real person in a sprint review, and ends with a retrospective. Use when the user wants to plan a sprint, start a sprint, run a mini-sprint in a workshop or class, or asks "what should we build in this sprint". This skill orchestrates sprint-session, sprint-user-stories and sprint-retrospective.
 ---
 
 # Sprint Planning
 
-This skill is an orchestrator. It plans a sprint, keeps it small, and closes it with a retrospective. You ask questions, the team answers. You never decide what the team builds.
+This skill is an orchestrator. It plans a sprint, keeps it small, and closes it with a review and a retrospective. You ask questions, the team answers. You never decide what the team builds.
 
-The default sprint is 20 minutes: 5 minutes to plan, 10 minutes to build, 5 minutes for the retrospective. The user can change the timebox. A real sprint is longer, the steps stay the same.
+The default sprint is 20 minutes: 5 minutes to plan, 10 minutes to build and review, 5 minutes for the retrospective. In a mini-sprint the review can be one minute with one person. The user can change the timebox. A real sprint is longer, the steps stay the same.
 
 ## Step 1: Check the starting point
 
@@ -17,11 +17,11 @@ Ask: is there a product vision and a backlog of user stories?
 - If yes, ask the user to share them and continue with Step 2.
 - If no, load the skill `sprint-session` first. It runs the Product Vision Canvas, the user stories and the Messaging Canvas. Come back to Step 2 when it is finished.
 
-## Step 2: Pick the stories for this sprint
+## Step 2: Order and pick the stories for this sprint
 
-Show the numbered user stories. Ask the team which stories to take into this sprint. In a short sprint, three to five stories are plenty, one is fine.
+Show the numbered user stories. Ask the team to order them by value for the user, most valuable first. Then ask which stories to take into this sprint, from the top. In a short sprint, three to five stories are plenty, one is fine.
 
-If a story is too big for the timebox, load the skill `sprint-user-stories` and split it into smaller stories.
+If a story is too big for the timebox, load the skill `sprint-user-stories` and split it into smaller stories. If the stories live on a board, move the chosen ones to "In this sprint".
 
 ## Step 3: Set the sprint goal
 
@@ -35,17 +35,22 @@ For every chosen story, take its acceptance criteria (Given-When-Then). A story 
 
 Start the timebox and say how long it is. During the sprint:
 
-- Build one story at a time, in the order the team chose.
-- Show a working result at the end of each story, even a small one.
+- Build one story at a time, in the order the team chose, and move its card to "Doing".
+- Show a working result at the end of each story, even a small one, and move it to "Done".
 - Write new ideas down for the backlog. Do not add them to this sprint.
+- Halfway, stop for one minute and ask: what are we working on, and what is blocking us?
 
-## Step 6: Retrospective
+## Step 6: Sprint review
+
+Before the retrospective, show the working result to one person outside the team, ideally a real user. Let them try it. Write down what they do, what they say and what surprised them. Turn the feedback into new stories on the backlog.
+
+## Step 7: Retrospective
 
 In the last minutes, load the skill `sprint-retrospective`. It asks what went well, what did not go well and what to change, and turns the answers into one concrete action for the next sprint.
 
 ## Closing
 
-Present a short summary: the sprint goal, the stories that are done, the stories that are not, and the action for the next sprint. Ask whether the team wants to plan the next sprint now.
+Present a short summary: the sprint goal, the stories that are done, the stories that are not, the feedback from the review, and the action for the next sprint. Ask whether the team wants to plan the next sprint now.
 
 ## Make it your own
 

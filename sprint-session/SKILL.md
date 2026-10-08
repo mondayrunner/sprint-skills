@@ -18,11 +18,11 @@ Load the skill `sprint-product-vision-canvas`. Work through the five swimlanes f
 
 Load the skill `sprint-user-stories`. Write user stories based on the canvas, grouped per swimlane or theme. Format: "As a [type of user], I want [action], so that [value]", with acceptance criteria in Given-When-Then style.
 
-Default is at least 10 stories. If the user is working in a short sprint, ask how many they want (three to five is enough).
+Default is at least 10 stories as short headlines for the backlog. Order them by value and work out only the top three to five in full, with acceptance criteria. Offer to put the backlog on a board.
 
 ## Step 3: Messaging Canvas
 
-Load the skill `sprint-messaging-canvas`. Use the Product Vision Canvas and the user stories as input. Work through the six steps: Struggle, Solution, Hesitations, Awareness, Differentiators, Success. Use Feature, Ability and Benefit for every proposition element.
+In a short sprint, skip this step and do it in a later sprint, when you need to explain the product to someone. Otherwise load the skill `sprint-messaging-canvas`. Use the Product Vision Canvas and the user stories as input. Work through the six steps: Struggle, Solution, Hesitations, Awareness, Differentiators, Success. Use Feature, Ability and Benefit for every proposition element.
 
 ## Closing
 

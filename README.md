@@ -30,7 +30,7 @@ Install the skills from https://github.com/mondayrunner/sprint-skills for me.
 4. Tell me which skills are installed, then wait.
 ```
 
-When it is done, start a new session and say: "Run a sprint session for my idea." When you have a backlog: "Plan a 20-minute sprint."
+When it is done, start a new session and type `/sprint-session`. It is the orchestrator: it runs the vision board, the user stories and the messaging canvas one after the other. Once you have a backlog, type `/sprint-planning` to plan and run a sprint. You can also just say "Run a sprint session for my idea" or "Plan a 20-minute sprint."
 
 ## Install yourself
 

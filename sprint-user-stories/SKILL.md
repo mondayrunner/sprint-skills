@@ -76,7 +76,7 @@ A backlog is a list with rules. Apply them when you put the stories on the board
 - **Not a feature list:** hold the features and think one level higher. Imagine a day in the life of the user and ask what they need.
 - **Sharp at the top, rough at the bottom:** the stories you build soon are clear and detailed, the rest stays short.
 - **Ready means it fits in one sprint:** a story is ready to be picked when the team can finish it within the sprint.
-- **The builders estimate:** the people who do the work give the estimate, the product owner helps with trade-offs. Use effort points: 1, 2, 3, 5, 8, 13, 20 (1 is easy, 20 is very hard). Split every story of 13 or more.
+- **The builders estimate:** the people who do the work give the estimate, the product owner helps with trade-offs. Use effort points: 1, 2, 3, 5, 8, 13, 20 (1 is easy, 20 is very hard), or T-shirt sizes (S, M, L, XL) if points feel heavy. Alone and with an AI agent, T-shirt sizes are usually enough. Split every story of 13 or an XL.
 - **Acceptance criteria answer "how do we demo this?":** say what the result looks like in the demo.
 
 ## What makes a good story

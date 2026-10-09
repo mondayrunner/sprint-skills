@@ -63,7 +63,8 @@ Scrum also works for one person. You are the product owner, the builder and the 
 - **User hat, in the review:** look at the result as someone who sees it for the first time.
 - **Sprint buddy:** pick a classmate or someone from your standup group. Tell them your sprint goal at the start, and show them the result at the end. A sprint review needs someone outside the team.
 - **Retrospective:** do it with your buddy. Each of you says one thing that went well and one thing to change.
-- **Estimates:** points are relative to your own speed. After the first sprint, the points you finished are your speed. Plan the next sprint with that number.
+- **Estimates:** points are relative to your own speed. After the first sprint, the points you finished are your speed. Plan the next sprint with that number. With points you can draw a burn-down chart. That helps a team, but alone and at AI speed it is often overhead: T-shirt sizes are enough.
+- **The goal is a working product increment:** each sprint ends with a working step of the product. What that step is comes from the product vision, so ask: what is the end goal of the sprints?
 - **The AI is the facilitator, not the buddy:** it keeps the steps and the time, a person gives the feedback.
 
 ## Working with AI agents
